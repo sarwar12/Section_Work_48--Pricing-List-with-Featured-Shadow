@@ -1,0 +1,119 @@
+/* Main CSS Start */
+*{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body ,a{
+  font-size: 18px;
+  line-height: 1.7;
+  color: #737648;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0 0 15px;
+	font-weight: 700;
+}
+a:hover{
+	text-decoration: none;
+}
+/* Main CSS Stop */
+/* Pricing List Section Start */ 
+.section-padding {
+  padding: 100px 0;
+}
+.pricing-table {
+  overflow: hidden;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+.single-pricing-list {
+	float: left;
+	width: 33.333333%;
+	box-shadow: 0 0 10px #f3f3f3;
+	position: relative;
+	z-index: 1;
+	background: #fff;
+	margin-top: 30px;
+}
+.pricing-heading h4 {
+  color: #888888;
+  font-weight: 400;
+  font-size: 30px;
+}
+.pricing-heading h1 {
+  color: ;
+  color: #333;
+  font-weight: 400;
+  font-size: 50px;
+  text-transform: ;
+}
+.pricing-heading {
+  background: #f9f9f9;
+  color: #898888;
+  font-size: 17px;
+  padding: 40px;
+}
+.pricing-content {
+  padding: 60px;
+}
+.pricing-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 35px;
+}
+.pricing-btn {
+  display: inline-block;
+  border: 1px solid #f91942;
+  color: #f91942;
+  font-weight: 400;
+  padding: 15px 30px;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+.active .pricing-heading {
+  background: #f25353;
+  color: #fff;
+  margin-top: 0px;
+}
+.active .pricing-heading h4 {
+  color: #fff;
+}
+.active .pricing-heading h1 {
+  color: #fff;
+}
+.single-pricing-list.active {
+	position: relative;
+	z-index: 2;
+	margin-left: -.5%;
+	margin-right: -.5%;
+	width: 34.333333%;
+	overflow: hidden;
+	margin-top: 0;
+}
+
+.active .pricing-content {
+  padding: 73px 60px;
+}
+.active .pricing-btn {
+  background: #f91942;
+  color: #fff;
+}
+
+.active .pricing-heading:after {
+  content: "Featured";
+  position: absolute;
+  right: -40px;
+  top: 20px;
+  color: #f91942;
+  background: #fff;
+  transform: rotate(45deg);
+  font-size: 15px;
+  padding: 5px 50px;
+}
+/* Pricing List Section Stop */ 
